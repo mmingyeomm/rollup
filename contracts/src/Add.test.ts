@@ -8,6 +8,7 @@ import { Add } from './Add';
  * See https://docs.minaprotocol.com/zkapps for more info.
  */
 
+
 let proofsEnabled = false;
 
 describe('Add', () => {
