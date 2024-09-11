@@ -1,4 +1,32 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "rollup": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/rollup.json",
+      "feepayerKeyPath": "C:\\Users\\82106/.cache/zkapp-cli/keys/account1.json",
+      "feepayerAlias": "account1",
+      "fee": "0.1",
+      "smartContract": "RollupContract"
+    },
+    "add": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/add.json",
+      "feepayerKeyPath": "C:\\Users\\82106/.cache/zkapp-cli/keys/account1.json",
+      "feepayerAlias": "account1",
+      "fee": "0.1",
+      "smartContract": "Add"
+    },
+    "rollup2": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/rollup2.json",
+      "feepayerKeyPath": "C:\\Users\\82106/.cache/zkapp-cli/keys/account1.json",
+      "feepayerAlias": "account1",
+      "fee": "0.1",
+      "smartContract": "RollupContract"
+    }
+  }
 }

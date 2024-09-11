@@ -23,3 +23,5 @@ export class Add extends SmartContract {
     this.num.set(newState);
   }
 }
+
+
